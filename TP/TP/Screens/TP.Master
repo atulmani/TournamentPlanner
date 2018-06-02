@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TP.master.cs" Inherits="TP.TP" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>TOURNAMENT PLANNER</title>
+    <meta name="description" content="Plan Your Tournament with us, TOURNAMENTPLANNER" />
+    <meta name="keywords" content="Tournament Planner Pune Maharashtra India" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link rel="stylesheet" href="~/TPStyle/TP.css" type="text/css"/>
+    
+    <link href="~/TPStyle/style.css" rel="stylesheet"/>
+    <!-- Bootstrap -->
+    <link href="~/TPStyle/bootstrap.min.css" rel="stylesheet"/>
+    <link href="~/TPStyle/responsiveMP.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/TPStyle/jquery.simplyscroll.css" media="all" type="text/css"/>
+    <script type="text/javascript" src="/TPJS/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="/TPJS/jquery.simplyscroll.js"></script>-->
+            	
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <div class="tpHeaderTitle_Atul" style="height:auto">
+              <asp:Image ID="imgLogo"  AlternateText="TournamentPlanner.in" ImageUrl="~/TPImages/Home/Logo/TP2.jpg" width="70px" height="70px" runat="server" />
+               TOURNAMENT PLANNER
+        </div>
+            
+        <div>
+			<table border="0" cellspacing="0" class="menu_Atul" width="100%" style="text-align:center;">
+				<tr>
+					<td style="width:20%;">
+                        <a style='text-decoration:none;color:rgb(0,0,0);' href="#">TENNIS</a>
+                     </td>
+                     <td style="width:20%;">|</td>
+					<td style="width:20%;"><a id="A1" style='text-decoration:none;color:rgb(256,256,256);' runat="server" href="~/Screens/TP_BD_Home.aspx">BADMINTON</a></td>
+                    <td style="width:20%;">|</td>
+                    <td style="width:20%;"><a style='text-decoration:none;color:rgb(0,0,0);' href="#">TABLE TENNIS</a></td>
+																		
+									
+				</tr>
+			</table>
+
+            <!--<td style='text-align:center;'><a style='text-decoration:none;color:rgb(0,0,0);' href="#">VOLLEYBALL</a></td>-->
+					<!--<td style='text-align:center;'><a style='text-decoration:none;color:rgb(0,0,0);' href="#">BASKETBALL</a></td>-->	
+
+		</div>
+        
+	<!-- Body Content -->  
+  <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        	
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    
+<section class="btm" style="margin-top:2px;">
+      <div id="copyright"  class="resulrView clearfix">
+    <!--<div class="btm_txt">&copy; Copyright 2017 Sportft Crest and Wellness Pvt. Ltd. All Rights Reserved.</div>-->
+    <div class="btm_txt">&copy; Copyright 2017 TournamentPlanner.in (TP) - All Rights Reserved.</div>
+    <div class="btm_icon"> 
+		<span class="icon">
+			<a href="#">
+				<img src="TPImages/home/footer/rss_icon.png" onMouseOver="this.src='TPImages/home/footer/rss_icon_o.png'" onMouseOut="this.src='TPImages/home/footer/rss_icon.png'" />
+			</a>
+		</span>
+		<span class="icon">
+			<a href="#">
+				<img id="fbs" src="TPImages/home/footer/fcebok_icon.png" onMouseOver="this.src='TPImages/home/footer/fcebok_icon_o.png'" onMouseOut="this.src='TPImages/home/footer/fcebok_icon.png'"/>
+			</a>
+		</span>
+		<span class="icon">
+			<a href="#">
+				<img src="TPImages/home/footer/twitter_icon.png" onMouseOver="this.src='TPImages/home/footer/twitter_icon_o.png'" onMouseOut="this.src='TPImages/home/footer/twitter_icon.png'"/>
+			</a>
+		</span>
+		<span class="icon">
+			<a href="#">
+				<img src="TPImages/home/footer/linkin_icon.png" onMouseOver="this.src='img/home/footer/linkin_icon_o.png'" onMouseOut="this.src='TPImages/home/footer/linkin_icon.png'"/>
+			</a>
+		</span>
+	</div>
+  </div>
+    </section>
+    
+    </form>
+
+
+</body>
+</html>
