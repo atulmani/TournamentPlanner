@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E6D2AD61-38B5-4CC3-853C-070271377BC3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TP</RootNamespace>
+    <AssemblyName>TP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="EmailTemplate\TournamentOnboarding.htm" />
+    <Content Include="Screens\Admin\TPUploadData.aspx" />
+    <Content Include="Screens\Admin\TP_AdminDashboard.aspx" />
+    <Content Include="Screens\Admin\TP_CreateUmpire.aspx" />
+    <Content Include="Screens\Admin\TP_Dashboard.aspx" />
+    <Content Include="Screens\Admin\TP_GenerateDraw.aspx" />
+    <Content Include="Screens\Admin\TP_Login.aspx" />
+    <Content Include="Screens\Admin\TP_OfflineRegistration.aspx" />
+    <Content Include="Screens\Admin\TP_PaymentStatus.aspx" />
+    <Content Include="Screens\Admin\TP_PlayerList.aspx" />
+    <Content Include="Screens\Admin\TP_PlayerUpdate.aspx" />
+    <Content Include="Screens\Admin\TP_SMSSetup.aspx" />
+    <Content Include="Screens\Admin\TP_TournamentSetup.aspx" />
+    <Content Include="Screens\Admin\TP_UpdateMatchScore.aspx" />
+    <Content Include="Screens\TP_BD_Home.aspx" />
+    <Content Include="Screens\TP_Down.aspx" />
+    <Content Include="Screens\TP_Draws.aspx" />
+    <Content Include="Screens\TP_Events.aspx" />
+    <Content Include="Screens\TP_Gallery.aspx" />
+    <Content Include="Screens\TP_Matches.aspx" />
+    <Content Include="Screens\TP_MatchScore.aspx" />
+    <Content Include="Screens\TP_Match_Upcoming.aspx" />
+    <Content Include="Screens\TP_PaymentPlayersParticipation.aspx" />
+    <Content Include="Screens\TP_Players.aspx" />
+    <Content Include="Screens\TP_PlayersParticipation.aspx" />
+    <Content Include="Screens\TP_PreRegistration.aspx" />
+    <Content Include="Screens\TP_RegistrationForm - Copy.aspx" />
+    <Content Include="Screens\TP_RegistrationFormSimple.aspx" />
+    <Content Include="Screens\TP_RunMatch.aspx" />
+    <Content Include="Screens\TP_TeamCorporateNavigation.aspx" />
+    <Content Include="Screens\TP_TermsAndConditions.aspx" />
+    <Content Include="Screens\TP_TournamentController.aspx" />
+    <Content Include="Screens\TP_TournamentDetails.aspx" />
+    <Content Include="Screens\TP_UmpireView.aspx" />
+    <Content Include="Screens\TP_Winners.aspx" />
+    <Content Include="Screens\WebForm1.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="TPFonts\seguisym.svg" />
+    <Content Include="TPImages\AIYSFederation.png" />
+    <Content Include="TPImages\AllClients.png" />
+    <Content Include="TPImages\AllIndiaLogo.jpg" />
+    <Content Include="TPImages\android.png" />
+    <Content Include="TPImages\apple_icon.png" />
+    <Content Include="TPImages\app_design.png" />
+    <Content Include="TPImages\App_Development_and_Deployment.png" />
+    <Content Include="TPImages\App_Maintenance_and_Reporting.png" />
+    <Content Include="TPImages\arrow.png" />
+    <Content Include="TPImages\blackberry.png" />
+    <Content Include="TPImages\block.png" />
+    <Content Include="TPImages\body-bg.jpg" />
+    <Content Include="TPImages\can_flag.png" />
+    <Content Include="TPImages\CityFootballCoachingCenter.png" />
+    <Content Include="TPImages\CityFootballLogo.jpg" />
+    <Content Include="TPImages\count_box_div.png" />
+    <Content Include="TPImages\cpApproach.png" />
+    <Content Include="TPImages\cross_plat_img %281%29.png" />
+    <Content Include="TPImages\cross_plat_img.png" />
+    <Content Include="TPImages\DreamzLogo.png" />
+    <Content Include="TPImages\DreamzSkatingClub.png" />
+    <Content Include="TPImages\drupal_icon.png" />
+    <Content Include="TPImages\emobility.png" />
+    <Content Include="TPImages\enterprise.png" />
+    <Content Include="TPImages\ent_mob_img.png" />
+    <Content Include="TPImages\europe_flag.png" />
+    <Content Include="TPImages\fcebok_icon.png" />
+    <Content Include="TPImages\fcebok_icon_o.png" />
+    <Content Include="TPImages\global_presence.png" />
+    <Content Include="TPImages\Home\Banner\Reebok1.jpg" />
+    <Content Include="TPImages\Home\Banner\SF-Banner1.jpg" />
+    <Content Include="TPImages\Home\Banner\slide_1.png" />
+    <Content Include="TPImages\Home\Banner\slide_2.png" />
+    <Content Include="TPImages\Home\Banner\slide_3.png" />
+    <Content Include="TPImages\Home\body-bg.jpg" />
+    <Content Include="TPImages\Home\Footer\fcebok_icon.png" />
+    <Content Include="TPImages\Home\Footer\fcebok_icon_o.png" />
+    <Content Include="TPImages\Home\Footer\linkin_icon.png" />
+    <Content Include="TPImages\Home\Footer\linkin_icon_o.png" />
+    <Content Include="TPImages\Home\Footer\p1.png" />
+    <Content Include="TPImages\Home\Footer\p2.png" />
+    <Content Include="TPImages\Home\Footer\rss_icon.png" />
+    <Content Include="TPImages\Home\Footer\rss_icon_o.png" />
+    <Content Include="TPImages\Home\Footer\twitter_icon.png" />
+    <Content Include="TPImages\Home\Footer\twitter_icon_o.png" />
+    <Content Include="TPImages\Home\Logo\SFLogo-old.jpg" />
+    <Content Include="TPImages\Home\Logo\TP2.jpg" />
+    <Content Include="TPImages\Home\Marquee\logo.png" />
+    <Content Include="TPImages\Home\Marquee\logo_abaxis.png" />
+    <Content Include="TPImages\Home\Marquee\logo_abaxis_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_bettaway.png" />
+    <Content Include="TPImages\Home\Marquee\logo_bettaway_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_cavium.png" />
+    <Content Include="TPImages\Home\Marquee\logo_cavium_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_com_med.png" />
+    <Content Include="TPImages\Home\Marquee\logo_com_med_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_disney.png" />
+    <Content Include="TPImages\Home\Marquee\logo_disney_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_ebay.png" />
+    <Content Include="TPImages\Home\Marquee\logo_ebay_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_foley.png" />
+    <Content Include="TPImages\Home\Marquee\logo_foley_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_google.png" />
+    <Content Include="TPImages\Home\Marquee\logo_google_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_hbo.png" />
+    <Content Include="TPImages\Home\Marquee\logo_hbo_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_mobi.png" />
+    <Content Include="TPImages\Home\Marquee\logo_mobi_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_mtv.png" />
+    <Content Include="TPImages\Home\Marquee\logo_mtv_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_purdue.png" />
+    <Content Include="TPImages\Home\Marquee\logo_purdue_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_steris.png" />
+    <Content Include="TPImages\Home\Marquee\logo_steris_o.png" />
+    <Content Include="TPImages\Home\Marquee\logo_vb.png" />
+    <Content Include="TPImages\Home\Marquee\logo_vb_o.png" />
+    <Content Include="TPImages\Home\Marquee\love-sharing.png" />
+    <Content Include="TPImages\Home\Services\cpApproach.png" />
+    <Content Include="TPImages\Home\Services\cross_plat_img.png" />
+    <Content Include="TPImages\Home\Services\emobility.png" />
+    <Content Include="TPImages\Home\Services\ent_mob_img.png" />
+    <Content Include="TPImages\Home\Services\why_mob_img.png" />
+    <Content Include="TPImages\Home\Services\wmwus.png" />
+    <Content Include="TPImages\html5.png" />
+    <Content Include="TPImages\image-pattern-wallpapers_4222_1680x1050.jpg" />
+    <Content Include="TPImages\india_flag.png" />
+    <Content Include="TPImages\ios.png" />
+    <Content Include="TPImages\linkin_icon.png" />
+    <Content Include="TPImages\linkin_icon_o.png" />
+    <Content Include="TPImages\logo.png" />
+    <Content Include="TPImages\logo_abaxis.png" />
+    <Content Include="TPImages\logo_abaxis_o.png" />
+    <Content Include="TPImages\logo_bettaway.png" />
+    <Content Include="TPImages\logo_bettaway_o.png" />
+    <Content Include="TPImages\logo_cavium.png" />
+    <Content Include="TPImages\logo_cavium_o.png" />
+    <Content Include="TPImages\logo_com_med.png" />
+    <Content Include="TPImages\logo_com_med_o.png" />
+    <Content Include="TPImages\logo_disney.png" />
+    <Content Include="TPImages\logo_disney_o.png" />
+    <Content Include="TPImages\logo_ebay.png" />
+    <Content Include="TPImages\logo_ebay_o.png" />
+    <Content Include="TPImages\logo_foley.png" />
+    <Content Include="TPImages\logo_foley_o.png" />
+    <Content Include="TPImages\logo_google.png" />
+    <Content Include="TPImages\logo_google_o.png" />
+    <Content Include="TPImages\logo_hbo.png" />
+    <Content Include="TPImages\logo_hbo_o.png" />
+    <Content Include="TPImages\logo_mobi.png" />
+    <Content Include="TPImages\logo_mobi_o.png" />
+    <Content Include="TPImages\logo_mtv.png" />
+    <Content Include="TPImages\logo_mtv_o.png" />
+    <Content Include="TPImages\logo_purdue.png" />
+    <Content Include="TPImages\logo_purdue_o.png" />
+    <Content Include="TPImages\logo_steris.png" />
+    <Content Include="TPImages\logo_steris_o.png" />
+    <Content Include="TPImages\logo_vb.png" />
+    <Content Include="TPImages\logo_vb_o.png" />
+    <Content Include="TPImages\love-sharing.png" />
+    <Content Include="TPImages\mera-group.png" />
+    <Content Include="TPImages\MeraGroup.png" />
+    <Content Include="TPImages\MeraGroup1.png" />
+    <Content Include="TPImages\MeraGroupClient.png" />
+    <Content Include="TPImages\MeraShop.png" />
+    <Content Include="TPImages\MGLogo.jpg" />
+    <Content Include="TPImages\MGLogo_bk.jpg" />
+    <Content Include="TPImages\micro_icon.png" />
+    <Content Include="TPImages\Mobile_App_Planing_and_Analysis.png" />
+    <Content Include="TPImages\Mobile_Strategy_Consulting.png" />
+    <Content Include="TPImages\oracle_icon %281%29.png" />
+    <Content Include="TPImages\oracle_icon.png" />
+    <Content Include="TPImages\p1.png" />
+    <Content Include="TPImages\p2.png" />
+    <Content Include="TPImages\phoine-icon.png" />
+    <Content Include="TPImages\platform.png" />
+    <Content Include="TPImages\PropDial.png" />
+    <Content Include="TPImages\rightArrow.png" />
+    <Content Include="TPImages\robust_mobile.png" />
+    <Content Include="TPImages\rss_icon.png" />
+    <Content Include="TPImages\rss_icon_o.png" />
+    <Content Include="TPImages\sap_icon.png" />
+    <Content Include="TPImages\slide_1.png" />
+    <Content Include="TPImages\slide_2.png" />
+    <Content Include="TPImages\slide_3.png" />
+    <Content Include="TPImages\slide_4.png" />
+    <Content Include="TPImages\social-icons.png" />
+    <Content Include="TPImages\teamwork.png" />
+    <Content Include="TPImages\twitter_icon.png" />
+    <Content Include="TPImages\twitter_icon_o.png" />
+    <Content Include="TPImages\us_flag.png" />
+    <Content Include="TPImages\web_designing_banner.png" />
+    <Content Include="TPImages\why_mob_img.png" />
+    <Content Include="TPImages\wide_array.png" />
+    <Content Include="TPImages\window.png" />
+    <Content Include="TPImages\wmwus.png" />
+    <Content Include="TPPics\icoHome.png" />
+    <Content Include="TPPics\icoTrophy.png" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-1.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-10.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-11.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-12.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-2.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-3.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-4.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-5.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-6.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-7.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-8.jpg" />
+    <Content Include="TPPics\Photos\BadmintonBuddies-16Sep17\IMG-20170916-9.jpg" />
+    <Content Include="TPPics\TournamentPics\BD_TP1-1.jpg" />
+    <Content Include="TPPics\TournamentPics\BD_TP1-2.jpg" />
+    <Content Include="TPJS\bootstrap.min.js" />
+    <Content Include="TPJS\CommonFunction.js" />
+    <Content Include="TPJS\jquery-1.10.2.min.js" />
+    <Content Include="TPJS\jquery.js" />
+    <Content Include="TPJS\jquery.min.js" />
+    <Content Include="TPJS\jquery.simplyscroll.js" />
+    <Content Include="TPStyle\bootstrap.min.css" />
+    <Content Include="TPStyle\cybosyss-default.css" />
+    <Content Include="TPStyle\jquery.simplyscroll.css" />
+    <Content Include="TPStyle\responsiveMP.css" />
+    <Content Include="TPStyle\style.css" />
+    <Content Include="TPStyle\TP.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.config.old" />
+    <None Include="Web.config.Debug.old">
+      <DependentUpon>Web.config.old</DependentUpon>
+    </None>
+    <None Include="Web.config.Release.old">
+      <DependentUpon>Web.config.old</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\Admin\TPUploadData.aspx.cs">
+      <DependentUpon>TPUploadData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TPUploadData.aspx.designer.cs">
+      <DependentUpon>TPUploadData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_AdminDashboard.aspx.cs">
+      <DependentUpon>TP_AdminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_AdminDashboard.aspx.designer.cs">
+      <DependentUpon>TP_AdminDashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_CreateUmpire.aspx.cs">
+      <DependentUpon>TP_CreateUmpire.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_CreateUmpire.aspx.designer.cs">
+      <DependentUpon>TP_CreateUmpire.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_Dashboard.aspx.cs">
+      <DependentUpon>TP_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_Dashboard.aspx.designer.cs">
+      <DependentUpon>TP_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_GenerateDraw.aspx.cs">
+      <DependentUpon>TP_GenerateDraw.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_GenerateDraw.aspx.designer.cs">
+      <DependentUpon>TP_GenerateDraw.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_Login.aspx.cs">
+      <DependentUpon>TP_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_Login.aspx.designer.cs">
+      <DependentUpon>TP_Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_OfflineRegistration.aspx.cs">
+      <DependentUpon>TP_OfflineRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_OfflineRegistration.aspx.designer.cs">
+      <DependentUpon>TP_OfflineRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PaymentStatus.aspx.cs">
+      <DependentUpon>TP_PaymentStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PaymentStatus.aspx.designer.cs">
+      <DependentUpon>TP_PaymentStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PlayerList.aspx.cs">
+      <DependentUpon>TP_PlayerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PlayerList.aspx.designer.cs">
+      <DependentUpon>TP_PlayerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PlayerUpdate.aspx.cs">
+      <DependentUpon>TP_PlayerUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_PlayerUpdate.aspx.designer.cs">
+      <DependentUpon>TP_PlayerUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_SMSSetup.aspx.cs">
+      <DependentUpon>TP_SMSSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_SMSSetup.aspx.designer.cs">
+      <DependentUpon>TP_SMSSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_TournamentSetup.aspx.cs">
+      <DependentUpon>TP_TournamentSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_TournamentSetup.aspx.designer.cs">
+      <DependentUpon>TP_TournamentSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_UpdateMatchScore.aspx.cs">
+      <DependentUpon>TP_UpdateMatchScore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\Admin\TP_UpdateMatchScore.aspx.designer.cs">
+      <DependentUpon>TP_UpdateMatchScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP.Master.cs">
+      <DependentUpon>TP.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP.Master.designer.cs">
+      <DependentUpon>TP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_BD_Home.aspx.cs">
+      <DependentUpon>TP_BD_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_BD_Home.aspx.designer.cs">
+      <DependentUpon>TP_BD_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Down.aspx.cs">
+      <DependentUpon>TP_Down.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Draws.aspx.cs">
+      <DependentUpon>TP_Draws.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Draws.aspx.designer.cs">
+      <DependentUpon>TP_Draws.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Events.aspx.cs">
+      <DependentUpon>TP_Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Events.aspx.designer.cs">
+      <DependentUpon>TP_Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Gallery.aspx.cs">
+      <DependentUpon>TP_Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Gallery.aspx.designer.cs">
+      <DependentUpon>TP_Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Matches.aspx.cs">
+      <DependentUpon>TP_Matches.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Matches.aspx.designer.cs">
+      <DependentUpon>TP_Matches.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_MatchScore.aspx.cs">
+      <DependentUpon>TP_MatchScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_MatchScore.aspx.designer.cs">
+      <DependentUpon>TP_MatchScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Match_Upcoming.aspx.cs">
+      <DependentUpon>TP_Match_Upcoming.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Match_Upcoming.aspx.designer.cs">
+      <DependentUpon>TP_Match_Upcoming.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_PaymentPlayersParticipation.aspx.cs">
+      <DependentUpon>TP_PaymentPlayersParticipation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_PaymentPlayersParticipation.aspx.designer.cs">
+      <DependentUpon>TP_PaymentPlayersParticipation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Players.aspx.cs">
+      <DependentUpon>TP_Players.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Players.aspx.designer.cs">
+      <DependentUpon>TP_Players.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_PlayersParticipation.aspx.cs">
+      <DependentUpon>TP_PlayersParticipation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_PlayersParticipation.aspx.designer.cs">
+      <DependentUpon>TP_PlayersParticipation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_PreRegistration.aspx.cs">
+      <DependentUpon>TP_PreRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_PreRegistration.aspx.designer.cs">
+      <DependentUpon>TP_PreRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_RegistrationFormSimple.aspx.cs">
+      <DependentUpon>TP_RegistrationFormSimple.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_RegistrationFormSimple.aspx.designer.cs">
+      <DependentUpon>TP_RegistrationFormSimple.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_RunMatch.aspx.cs">
+      <DependentUpon>TP_RunMatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_RunMatch.aspx.designer.cs">
+      <DependentUpon>TP_RunMatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_TeamCorporateNavigation.aspx.cs">
+      <DependentUpon>TP_TeamCorporateNavigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_TeamCorporateNavigation.aspx.designer.cs">
+      <DependentUpon>TP_TeamCorporateNavigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_TermsAndConditions.aspx.cs">
+      <DependentUpon>TP_TermsAndConditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_TermsAndConditions.aspx.designer.cs">
+      <DependentUpon>TP_TermsAndConditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_TournamentController.aspx.cs">
+      <DependentUpon>TP_TournamentController.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_TournamentController.aspx.designer.cs">
+      <DependentUpon>TP_TournamentController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_TournamentDetails.aspx.cs">
+      <DependentUpon>TP_TournamentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_TournamentDetails.aspx.designer.cs">
+      <DependentUpon>TP_TournamentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_UmpireView.aspx.cs">
+      <DependentUpon>TP_UmpireView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_UmpireView.aspx.designer.cs">
+      <DependentUpon>TP_UmpireView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\TP_Winners.aspx.cs">
+      <DependentUpon>TP_Winners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\TP_Winners.aspx.designer.cs">
+      <DependentUpon>TP_Winners.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Screens\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Screens\TP.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TPFonts\seguisym.eot" />
+    <None Include="TPFonts\seguisym.ttf" />
+    <None Include="TPFonts\seguisym.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MGCommon\MGCommon.csproj">
+      <Project>{88CBFD58-91B0-498A-BBDF-9A8C1E73FCE7}</Project>
+      <Name>MGCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPDAL\TPDAL.csproj">
+      <Project>{E52184A7-A03D-4FCF-8780-13BC2E43A6D1}</Project>
+      <Name>TPDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPEntity\TPEntity.csproj">
+      <Project>{04F956A3-1BE2-462E-940E-82218722D297}</Project>
+      <Name>TPEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52321</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
