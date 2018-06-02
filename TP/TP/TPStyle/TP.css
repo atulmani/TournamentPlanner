@@ -1,0 +1,734 @@
+﻿/*----------------------------------------------*/
+/*BODY
+{	font-family: Calibri, Verdana, Arial;
+	font-weight: normal;
+	font-size:   10px;
+	color:		 Black;
+	background-color: #FFFFF;
+}*/
+/*----------------------------------------------*/
+A
+{	FONT-WEIGHT: 	 bold;
+	COLOR:		 	 #004080;
+	font-style:	 	 normal;
+	text-decoration: none;
+}
+
+/*A:hover
+{	FONT-Size: 24px;
+	COLOR: 		 #000000;
+}*/
+
+input.underlined
+{
+   border:0;
+   border-bottom:solid 1px #000;
+   outline:none; /* prevents textbox highlight in chrome */
+   font: 18pt Calibri;
+   border-color:rgb(146,215,10);
+   background:#ffffff;
+   height:36px;
+}
+
+.mycheckbox input[type='checkbox'] 
+{ 
+	height: 20px; 
+	width: 20px;
+}
+
+/*-----------------Media enabled-----------------------------*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 120px) 
+and (max-device-width : 480px) {
+
+}
+
+@media only screen 
+and (min-width: 100px)
+and (max-width: 600px)
+/*@media(max-width:360px)*/ 
+{
+    
+    .tblcol2hide{
+        display: none;
+        }
+	.tblHorizontal{
+     	display: none;
+     }
+     .tblVertical{
+     	visibility: visible;
+     }
+    .targetClass {
+        font-size: 12em;
+    }
+    
+    .h1Text_Atul {		
+		font: 18pt Calibri;
+		color: #010028;	
+	}
+	
+	.h1BoldText_Atul {		
+		font: bold 18pt Calibri;
+		color: #010028;		
+	}
+    
+    .h2Text_Atul {		
+		font: 15pt Calibri;
+		color: #010028;		
+	}
+	
+	.h2BoldText_Atul {		
+		font: bold 15pt Calibri;
+		color: #010028;		
+	}
+	
+	.h3Text_Atul {		
+		font: 13pt Calibri;
+		color: #010028;		
+	}
+	
+	.h3BoldText_Atul {		
+		font: bold 13pt Calibri;
+		color: #010028;		
+	}
+	
+	.h4Text_Atul {		
+		font: 11pt Calibri;
+		color: #010028;		
+	}
+	
+	.h4BoldText_Atul {		
+		font: bold 11pt Calibri;
+		color: #010028;		
+	}
+	
+	.h5Text_Atul {		
+		font: 9pt Calibri;
+		color: #010028;		
+	}
+	
+	.h5BoldText_Atul {		
+		font: bold 9pt Calibri;
+		color: #010028;		
+	}
+	
+	.h6Text_Atul {		
+		font: 7pt Calibri;
+		color: #010028;		
+	}
+	
+	.h6BoldText_Atul {		
+		font: bold 7pt Calibri;
+		color: #010028;		
+	}
+    
+    .tpHeaderTitle_Atul {		
+		font-family: Calibri;
+		font-style:normal;
+		font-weight:bold;
+		font-size:18pt;
+		letter-spacing:0px;
+		color: rgb(4,163,233);	
+		width:100%;
+		height:55px;
+		text-align:center;
+		padding-left:0px;		
+		padding-top:8px;
+	}
+    
+    .menu_Atul {		
+		font: 10pt Calibri;
+		width:100%;
+		height:45px;
+		color:rgb(256,256,256);
+		text-align:center;		
+		/*background:rgb(251,85,58);	*/
+		/*background:rgb(4,163,233);*/
+		background-color:#1E5C8B;
+		border-right: 2px solid white;		
+		border-right-color: white;
+				
+	}
+	
+	.tabMenuActive_Atul
+	{
+		/*border:none;*/
+		font: bold 10pt Calibri;
+		/*width:100%;*/
+		height:35px;
+		/*color:rgb(4,163,233);*/
+		color:#1E5C8B;				
+		/*background:rgb(245,245,245);*/
+		background-color:White;
+		
+		border-top-color: black;
+		border-left-color: black;
+		border-right-color: black;
+		border-bottom-color: rgb(245,245,245);
+		
+		border-top: 2px solid black;
+		border-top-color: #1E5C8B;
+		border-left: 2px solid black;
+		border-left-color: #1E5C8B;
+		border-right: 2px solid black;		
+		border-right-color: #1E5C8B;
+		border-bottom-color: #1E5C8B;
+	}
+	
+	.tabMenuInactive_Atul
+	{
+		/*border:none;*/
+		
+		font: bold 8pt Calibri;
+		/*width:100%;*/
+		height:35px;
+		color:rgb(150,150,150);		
+		/*background:rgb(251,85,58);	*/		
+		background:rgb(235,235,235);
+				
+		border-bottom: 1px solid black;
+		border-bottom-color: #1E5C8B;
+	}
+    
+	.buttonText_Atul {
+		font: bold 18pt Calibri;
+		height:50px;
+	}
+	
+	.button_Atul {
+		font: bold 12pt Calibri;			    
+	    /*background:rgb(4,163,233);*/
+	    background-color:#1E5C8B;
+	    color:rgb(256,256,256);	    
+	    border:none;		
+		height:42px;
+		width:94%;		
+	}
+	
+	.buttonOFF_Atul {		
+		font: bold 10pt Calibri;			    
+	    background-color:#d3d3d3;
+	    color:Gray;
+	    border:none;		
+		height:38px;
+		width:95%;		
+	}
+	
+	.topPaddingBetweenObjects_Atul {
+		padding-top:25px;
+	}
+
+	.textBoxUnderline_Atul
+	{
+	   border:0;
+	   border-bottom:solid 1px #000;
+	   outline:none; /* prevents textbox highlight in chrome */
+	   font:bold 12pt Calibri;
+	   /*border-color:rgb(251,85,58);*/
+	   border-color:rgb(4,163,233);
+	   color:rgb(100,100,100);
+	   background:#ffffff;
+	   height:36px;
+	}
+	
+	.textBox_Atul
+	{
+	   border:none;
+	   /*border-bottom:solid 1px #000;*/
+	   outline:none; /* prevents textbox highlight in chrome */
+	   font:12pt Calibri;
+	   /*border-color:rgb(251,85,58);*/
+	   border-color:rgb(4,163,233);
+	   color:rgb(100,100,100);
+	   background:rgb(240,240,240);
+	   margin-left:15px;
+	   height:36px;	
+	   width:98%;	   
+	}
+	
+	.dropdown_Atul
+	{
+	   border:0;
+	   border-bottom:solid 1px #000;
+	   border-color:rgb(4,163,233);
+	   font:bold 10pt Calibri;	   
+	   color:rgb(100,100,100);
+	   background:rgb(240,240,240);
+	   margin-left:15px;
+	   height:36px;
+	}
+	
+	.toggleButton_Atul
+	{
+		border:none;
+		background:rgb(245,245,245);
+		font: bold 14pt Calibri;
+		color:rgb(4,163,233);	     
+		height:58px;
+	}
+	
+	.panelRegistration_Atul
+	{
+	   font:bold 10pt Calibri;	
+	   background:rgb(250,250,250);	   
+	   width:100%;	
+	   height:auto;
+	   padding-bottom:20px;	   
+	}
+	
+	.form_Atul
+	{
+	    background:rgb(250,250,250);
+	    
+	    border-left-width:1px;
+	    border-left-style:solid;
+	    border-left-color:rgb(4,163,233);
+	    
+	    border-bottom-width:1px;
+	    border-bottom-style:solid;
+	    border-bottom-color:rgb(4,163,233);
+	    
+	    border-right-width:1px;
+	    border-right-style:solid;
+	    border-right-color:rgb(4,163,233);
+	    
+		margin:auto;
+		margin-top:2px;
+		
+		min-height:400px;
+		width:98%;
+	}
+	
+	.pageTopic
+	{
+		font: bold 14pt Calibri;			    
+	    /*background:rgb(4,163,233);*/
+	    background-color:#1E5C8B;
+	    color:rgb(256,256,256);	    		
+		height:40px;
+		width:100%;
+		text-align:center;
+		padding-top:10px;
+	}
+	
+	.thd_Atul
+	{
+		background: rgb(220,220,220);
+		font: bold 10pt Calibri;
+		text-align: center;
+	}
+	
+	.team_Atul
+	{
+		color: white; 
+		background:rgb(105,105,105); 
+		font: 8pt Calibri; 
+		border-right: solid 2px black;
+	}
+	
+	.winner_Atul
+	{
+		color: Black; 
+		background: rgb(156,156,156); 
+		font: bold 10pt Calibri; 
+		text-align:top;
+	}
+}
+
+
+@media only screen 
+and (min-width: 600px)
+and (max-width: 2200px) {
+    
+    .thd_Atul
+	{
+		background: rgb(220,220,220);
+		font: bold 16pt Calibri;
+		text-align: center;
+	}
+	
+	.team_Atul
+	{
+		color: white; 
+		background:rgb(105,105,105); 
+		font: 12pt Calibri; 
+		border-right: solid 2px black;
+	}
+	
+	.winner_Atul
+	{
+		color: Black; 
+		background: rgb(156,156,156); 
+		font: bold 14pt Calibri; 
+		text-align:top;
+	}
+    
+    .tournamentplannderHeader{    	
+    	font: 38pt Arial Rounded MT Bold;
+    }
+    .tblcol3hide{
+        display: none;
+    }
+    .mainmenufont{
+     	font: bold 20pt Calibri;
+     }
+    .submenufont{
+     	font: bold 19pt Calibri;
+     }
+     .tblHorizontal{
+     	visibility: visible;
+     }
+    .tblVertical{
+     	display: none;
+     }
+    
+	.h1Text_Atul {		
+		font: 20pt Calibri;
+		color: #010028;		
+	}
+	
+	.h1BoldText_Atul {		
+		font: bold 20pt Calibri;
+		color: #010028;		
+	}
+    
+    .h2Text_Atul {		
+		font: 18pt Calibri;
+		color: #010028;		
+	}
+	
+	.h2BoldText_Atul {		
+		font: bold 18pt Calibri;
+		color: #010028;		
+	}
+	
+	.h3Text_Atul {		
+		font: 16pt Calibri;
+		color: #010028;		
+	}
+	
+	.h3BoldText_Atul {		
+		font: bold 16pt Calibri;
+		color: #010028;		
+	}
+	
+	.h4Text_Atul {		
+		font: 14pt Calibri;
+		color: #010028;		
+	}
+	
+	.h4BoldText_Atul {		
+		font: bold 14pt Calibri;
+		color: #010028;		
+	}
+	
+	.h5Text_Atul {		
+		font: 12pt Calibri;
+		color: #010028;		
+	}
+	
+	.h5BoldText_Atul {		
+		font: bold 12pt Calibri;
+		color: #010028;		
+	}
+	
+	.h6Text_Atul {		
+		font: 10pt Calibri;
+		color: #010028;		
+	}
+	
+	.h6BoldText_Atul {		
+		font: bold 10pt Calibri;
+		color: #010028;		
+	}
+	
+	.tpHeaderTitle_Atul {		
+		font-family: Calibri;
+		font-style:normal;
+		font-weight:bold;
+		font-size:36pt;
+		letter-spacing:0px;
+		color: rgb(4,163,233);	
+		width:100%;
+		height:75px;
+		text-align:center;
+		padding-left:0px;		
+		padding-top:8px;
+	}
+	
+	.menu_Atul {		
+		font: 14pt Calibri;
+		width:100%;
+		height:35px;
+		color:rgb(0,0,0);		
+		/*background:rgb(251,85,58);	*/
+		background-color:#1E5C8B;
+	}
+	
+	.tabMenuActive_Atul
+	{
+		/*border:none;*/
+		font: bold 14pt Calibri;
+		/*width:100%;*/
+		height:45px;
+		color:#1E5C8B;				
+		/*background:rgb(245,245,245);*/
+		background-color:White;
+		
+		border-top-color: black;
+		border-left-color: black;
+		border-right-color: black;
+		border-bottom-color: rgb(245,245,245);
+		
+		border-top: 1px solid black;
+		border-top-color: rgb(4,163,233);
+		border-left: 1px solid black;
+		border-left-color: rgb(4,163,233);
+		border-right: 1px solid black;		
+		border-right-color: rgb(4,163,233);
+		border-bottom-color: rgb(245,245,245);
+	}
+	
+	.tabMenuInactive_Atul
+	{
+		/*border:none;*/
+				
+		font: bold 12pt Calibri;
+		/*width:100%;*/
+		height:45px;
+		color:rgb(150,150,150);		
+		/*background:rgb(251,85,58);	*/		
+		background:rgb(235,235,235);
+				
+		border-bottom: 1px solid black;
+		border-bottom-color: #1E5C8B;
+		
+	}
+	
+	
+	.buttonText_Atul {
+		font: bold 10pt Calibri;
+		height:50px;
+	}
+	
+	.button_Atul {		
+		font: bold 14pt Calibri;			    
+	    /*background:rgb(4,163,233);*/
+	    background-color:#1E5C8B;
+	    color:rgb(256,256,256);
+	    
+	    border:none;		
+		height:42px;
+		width:40%;		
+	}
+	
+	.buttonOFF_Atul {		
+		font: bold 14pt Calibri;			    
+	    background-color:#d3d3d3;
+	    color:Gray;
+	    border:none;		
+		height:38px;
+		width:92%;		
+	}
+	
+	.topPaddingBetweenObjects_Atul {
+		padding-top:20px;
+	}
+	
+	.textBoxUnderline_Atul
+	{
+	   border:0;
+	   border-bottom:solid 1px #000;
+	   outline:none; /* prevents textbox highlight in chrome */
+	   font:bold 12pt Calibri;
+	   /*border-color:rgb(251,85,58);*/
+	   border-color:rgb(4,163,233);
+	   color:rgb(100,100,100);
+	   background:#ffffff;
+	   height:36px;
+	}
+		
+	.textBox_Atul
+	{
+	   border:none;
+	   /*border-bottom:solid 1px #000;*/
+	   outline:none; /* prevents textbox highlight in chrome */
+	   font:bold 12pt Calibri;
+	   /*border-color:rgb(251,85,58);*/
+	   border-color:rgb(4,163,233);
+	   color:rgb(100,100,100);
+	   background:rgb(240,240,240);
+	   margin-left:15px;
+	   height:36px;	   
+	}
+		
+	.dropdown_Atul
+	{
+	   border:0;
+	   border-bottom:solid 1px #000;
+	   border-color:rgb(4,163,233);
+	   font:bold 12pt Calibri;	   
+	   color:rgb(100,100,100);
+	   background:rgb(240,240,240);
+	   margin-left:15px;
+	   height:36px;
+	}
+		
+	.toggleButton_Atul
+	{
+		border:none;
+		background:rgb(245,245,245);
+		font: bold 18pt Calibri;
+		color:rgb(4,163,233);
+	    width:100%;	 
+		height:58px;
+	}
+	
+	.panelRegistration_Atul
+	{
+	   font:bold 14pt Calibri;	
+	   background:rgb(250,250,250);	   
+	   width:100%;
+	   height:auto;	
+	   padding-bottom:20px;	   
+	}
+	
+	.form_Atul
+	{
+	    background:rgb(250,250,250);
+	    
+	    border-left-width:1px;
+	    border-left-style:solid;
+	    border-left-color:rgb(4,163,233);
+	    
+	    border-bottom-width:1px;
+	    border-bottom-style:solid;
+	    border-bottom-color:rgb(4,163,233);
+	    
+	    border-right-width:1px;
+	    border-right-style:solid;
+	    border-right-color:rgb(4,163,233);
+	    		
+		margin:auto;
+		margin-top:2px;
+		width:50%;
+		min-height:400px;
+	}
+	
+	.pageTopic
+	{
+		font: bold 14pt Calibri;			    
+	    /*background:rgb(4,163,233);*/
+	    background-color:#1E5C8B;
+	    color:rgb(256,256,256);	    		
+		height:40px;
+		width:100%;
+		text-align:center;
+		padding-top:10px;
+	}
+	
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 621px) {
+	
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+		
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ }
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 Plus portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 3)
+{ }
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+  and (max-device-width: 640px),
+  only screen and (max-device-width: 667px),
+  only screen and (max-width: 480px)
+{ }
+
+/* Apple Watch */
+@media
+  (max-device-width: 42mm)
+  and (min-device-width: 38mm)
+{ }
+
+
+/*----------------------------------------------*/
